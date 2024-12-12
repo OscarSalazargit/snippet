@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2 SNIPPETS</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../assets/favicon/favicon.ico" type="image/x-icon">
+    <!-- metas open graph -->
+    <meta property="og:title" content="Oscar Tarea 2" />
+    <meta property="og:type" content="education and practices" />
+    <meta property="og:url" content="https://OscarSalazargit.github.io/oscar/" />
+    <meta property="og:image" content="https://OscarSalazargit.github.io/oscar/assets/img/logoOscar.jpg" />
+    <meta property="og:description" content="Este contenido es para hacer practicas de codigo html y css" />
+    <meta property="og:image:width" content="160" />
+    <meta property="og:image:height" content="160" />
+    <!-- hojas de estilos -->
+    <!-- css google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <!-- Fontawensome -->
+<!--      
+    <link href="../assets/css/fontawesome.css" rel="stylesheet" />
+    <link href="../assets/css/brands.css" rel="stylesheet" />
+    <link href="../assets/css/solid.css" rel="stylesheet" />
+     -->
+    <!-- CSS reset -->
+    <!-- <link rel="stylesheet" href="tarea02reset.css"> -->
+<!-- 
+    <link rel="stylesheet" href="../../assets/css/reset.css"> -->
+
+    <!-- CSS principal -->
+
+    <!-- <link rel="stylesheet" href="../../assets/css/root.css"> -->
+
+    <!-- CSS de esta Tarea -->
+    <link rel="stylesheet" href="tarea02reset.css">
+    <link rel="stylesheet" href="trarea02Solucion.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <img src="logo3colores.png" alt="Logo de Oscar Salazar" class="header__imagen" />
+        <div class="header__name">
+            <h1 class="header__title">Oscar Salazar Villajos</h1>
+            <p class="header__text">Tarea 2 EL Snippet</p>
+        </div>
+    </header>
+    <!-- <nav class="menu">
+        <ul class="menu__list"> -->
+            <!-- <li class="menu__item">
+        <a class="menu__item-link" href="/">Inicio</a>
+      </li> -->
+            <!-- <li class="menu__item">
+                <a class="menu__item-link" href="../tarea02.html">Enunciado Tarea</a>
+            </li>
+            <li class="menu__item"><a class="menu__item-link" href="/">Inicio</a></li>
+        </ul>
+    </nav> -->
+    <div class="content">
+        <section class="snippets">
+            <article class="card__wrap">
+                <h2 class="card__title"><a href="#" class="card__title-link">Tarjeta</a>
+                </h2>
+                <p class="card__description">De esta manera se pueden ver las tarjetas. Los colores se pueden modificar
+                    con el css, asi como los margenes y paddings</p>
+                <video width="640" height="360" class="card__image" loop autoplay muted>
+                    <source src="snippetsTarea2/snippetCard.mp4" type="video/mp4">
+                    <source src="snippetsTarea2/snippetCard.webm" type="video/webm">
+                    <p>Tu navegador no admite la etiqueta de video.</p>
+                </video>
+                <img src="" alt="Imagen de la Tarjeta">
+                <footer class="card__footer">
+                    <p class="card__date">20/10/2024</p>
+                </footer>
+            </article>
+
+            <article class="description">
+                <header class="description__header">
+                    <h2 class="description__title">Como funciona este SNIPPET</h2>
+                </header>
+                <section class="description__description">
+                    <p class="description__text">
+                        Este es un script para poder insertar cards basicas para los trabajos de html y css. Se muestra
+                        como en el mismo codigo generado cortarlo y montarlo en dos archivos uno para el html y el otro
+                        con el css.
+                    </p>
+                    <video controls class="description__video">
+                        <source src="snippetsTarea2/snippetCard.mp4" type="video/mp4">
+                        <source src="snippetsTarea2/snippetCard.webm" type="video/webm">
+                        <p>Tu navegador no admite la etiqueta de video.</p>
+                    </video>
+                    <button class="btn__json"><a class="btn__link" href="snippetsTarea2/html.json"
+                            target="_blank">Archivo Json</a></button>
+
+                </section>
+            </article>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p class="footer__text">Oscar &copy;
+            <script>document.write(new Date().getFullYear());</script>
+        </p>
+    </footer>
+</body>
+
+</html>
